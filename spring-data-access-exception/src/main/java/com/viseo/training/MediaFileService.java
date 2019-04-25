@@ -1,21 +1,14 @@
 package com.viseo.training;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
-import org.springframework.stereotype.Service;
+// Implement service to  add a new media file in to data base
+// Be careful you may need to catch exception coming from JDBC
 
-@Service
 public class MediaFileService {
 
-    @Autowired
-    IMediaFileDao mediaFileDao;
 
-    public void saveEmployee(MediaFile mediaFile) {
-        try {
-            mediaFileDao.save(mediaFile);
-        }
-        catch (DataAccessException dae) {
-            System.err.println(dae);
-        }
+    public void saveMediaFile(MediaFile mediaFile) {
+        // your co goes here
+
     }
+
 }
