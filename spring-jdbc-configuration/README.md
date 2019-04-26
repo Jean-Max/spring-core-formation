@@ -4,7 +4,7 @@ spring-jdbc-configuration
 - Accessing relational data with Spring JDBC
 		
 ###2. To Run this project locally
-- git clone https://github.com/Jean-Max/spring-jdbc-configuration
+- git clone https://github.com/Jean-Max/spring-core-formation/spring-jdbc-configuration
 - you have to checkout on dev branch
 - mvn clean install -DskipTests
 - Run main method as a java application
